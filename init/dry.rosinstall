@@ -1,0 +1,1 @@
+- svn: {local-name: bosh_drivers, uri: 'https://bosch-ros-pkg.svn.sourceforge.net/svnroot/bosch-ros-pkg/trunk/stacks/bosch_drivers'}

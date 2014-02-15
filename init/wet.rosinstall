@@ -1,0 +1,3 @@
+- git: {local-name: robotpi, uri: 'git@github.com:schlichtanders/robotpi.git', version: master}
+- git: {local-name: camera_umd, uri: 'https://github.com/ktossell/camera_umd.git', version: master}
+
