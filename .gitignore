@@ -1,0 +1,16 @@
+build
+bin
+lib
+msg_gen
+srv_gen
+
+*~
+*.pyc
+
+*/src/*/cfg
+*/src/*/msg
+*/src/*/srv
+
+*.cfgc
+src/*/cfg
+cfg/cpp
