@@ -1,0 +1,7 @@
+<launch>
+<arg name="device" default='/dev/video0'/>
+<node name="mono" pkg="uvc_camera" type="camera_node">
+        <param name='~device' type='string' value='$(arg device)'/>
+        <param name='~frame_id' type='string' value='camera'/>
+</node>
+</launch>

@@ -1,0 +1,12 @@
+<launch>
+<arg name="device" default='/dev/video1'/>
+<arg name="name" default="camera"/>
+<arg name="frame_id" default="camera"/>
+<node name="$(arg name)" pkg="usb_cam" type="usb_cam_node">
+        <param name='~video_device' type='string' value='$(arg device)'/>
+        <param name='~image_width' type='int' value='320'/>
+        <param name='~image_height' type='int' value='240'/>
+        <param name='~pixel_format' type='string' value='mjpeg'/>
+        <param name='~camera_frame_id' type='string' value='$(arg frame_id)'/>
+</node>
+</launch>
