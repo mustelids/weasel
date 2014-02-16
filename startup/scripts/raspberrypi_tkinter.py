@@ -25,15 +25,14 @@ call(["xset", "-r"])
 gpio.setmode(gpio.BOARD)
 
 pins = {
- "F": 7,
- "B": 11,
- "L": 13,
- "R": 15,
- "GR": 12,
- "YE": 16,
- "RE": 18,
- "BL": 22
+ "F": 11,
+ "B": 7,
+ "L": 15,
+ "R": 13
 }
+
+pins_old = {"F": 7,"B": 11,"L": 13,"R": 15,
+ "GR": 12,"YE": 16,"RE": 18,"BL": 22}
 
 # default all pins to False:
 for p in pins.values():
