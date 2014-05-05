@@ -5,14 +5,14 @@
 <group ns="stereo">
 
 <!-- left camera -->
-<include file="$(find shared_tutorial)/launch/usb_mono_camera.launch">
+<include file="$(find weasel_startup)/launch/usb_mono_camera.launch">
     <arg name="device" value="$(arg device_left)"/>
     <arg name="frame_id" value="left"/>
     <arg name="name" value="left"/>
 </include>
 
 <!-- right camera -->
-<include file="$(find shared_tutorial)/launch/usb_mono_camera.launch">
+<include file="$(find weasel_startup)/launch/usb_mono_camera.launch">
     <arg name="device" value="$(arg device_right)"/>
     <arg name="frame_id" value="left"/>
     <arg name="name" value="right"/>
