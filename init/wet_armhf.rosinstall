@@ -1,0 +1,1 @@
+- git: {local-name: openni_launch, uri: 'https://github.com/ros-drivers/openni_launch', version: groovy-devel}
