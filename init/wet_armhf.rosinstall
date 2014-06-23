@@ -1,2 +1,3 @@
 - git: {local-name: weasel, uri: 'git@github.com:mustelids/weasel.git', version: master}
 - git: {local-name: openni_launch, uri: 'https://github.com/ros-drivers/openni_launch', version: groovy-devel}
+- git: {local-name: yujin_ocs, uri: 'https://github.com/yujinrobot/yujin_ocs', version: groovy-devel}
