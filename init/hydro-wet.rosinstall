@@ -1,1 +1,2 @@
 - git: {local-name: weasel, uri: 'git@github.com:mustelids/weasel.git', version: master}
+- git: {local-name: camera_umd, uri: 'https://github.com/ktossell/camera_umd.git', version: master}
