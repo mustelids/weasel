@@ -1,0 +1,2 @@
+- git: {local-name: weasel, uri: 'git@github.com:mustelids/weasel.git', version: master}
+- git: {local-name: yujin_ocs, uri: 'https://github.com/yujinrobot/yujin_ocs', version: hydro-devel}
